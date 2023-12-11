@@ -246,12 +246,6 @@ form button:hover {
   padding: 10px;
 }
 
-@media (max-width: 600px) {
-  .box-yt a {
-    font-size: 1rem;
-  }
-}
-
 #gallery {
   text-align: center;
 }
@@ -278,6 +272,52 @@ form button:hover {
   border-radius: 1.25rem;
 }
 
+.background-cs {
+  background-color: var(--primary-color);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0.5rem;
+}
+
+.background-cs h1 {
+  text-align: center;
+  color: #333;
+  margin: 2rem;
+}
+
+.background-cs h3 {
+  text-align: center;
+  color: #333;
+}
+
+.box-cs {
+  display: flex;
+  justify-content: center;
+}
+
+.box-cs img {
+  max-width: 45rem;
+  height: auto;
+  margin: 2rem auto;
+  border: 5px solid #999;
+}
+
+@media (max-width: 600px) {
+  .box-yt a {
+    font-size: 1rem;
+  }
+
+  .box-cs img {
+    max-width: 20rem;
+  }
+}
+
+@media (max-width: 735px) and (min-width: 600px) {
+  .box-cs img {
+    max-width: 35rem;
+  }
+}
 @media (max-width: 31rem) {
   .gallery-images {
     grid-template-columns: 1fr;
