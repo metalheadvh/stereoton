@@ -166,17 +166,17 @@ nav .fa-solid {
 
 form {
   background-image: linear-gradient(
-    0deg,
-    rgba(25, 24, 24, 0.8),
-    rgba(25, 24, 24, 0.8)
-  );
-  background-size: 100%;
+      180deg,
+      rgba(0, 0, 145, 0.213),
+      rgba(32, 32, 32, 0.344)
+    ),
+    url(assets/contact.png);
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+
   display: flex;
   flex-direction: column;
-  padding: 2rem;
-  margin: auto;
+  padding: 2rem 2rem 10rem;
 }
 form h3 {
   color: var(--primary-color);
@@ -198,18 +198,20 @@ form textarea {
 }
 form button {
   padding: 15px;
-  background: var(--secondary-color);
-  color: var(--primary-color);
+  background: var(--primary-color);
+  color: var(--secondary-color);
   border-radius: 1rem;
   margin-top: 10px;
   border: 0.125rem solid var(--primary-color);
   font-size: 16px;
   cursor: pointer;
   width: 100%;
+  transition: 0.5s;
 }
 
 form button:hover {
-  background: #0f0f0f;
+  background: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .yt-flex {
