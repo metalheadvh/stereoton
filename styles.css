@@ -305,6 +305,50 @@ form button:hover {
   border: 5px solid #999;
 }
 
+.expanding-cards {
+  display: flex;
+  width: 100vw;
+  background-color: #f9ead7;
+}
+
+.panel {
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 85vh;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  flex: 0.5;
+  margin: 10px;
+  position: relative;
+  transition: 0.8s;
+  border: 5px solid gray;
+}
+
+.panel.active {
+  flex: 9;
+  border-radius: 50px;
+  max-width: 600px;
+
+  border: 5px solid gray;
+}
+.panel.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+
+@media (max-width: 1024px) {
+  .expanding-cards {
+    display: none;
+  }
+}
+
+@media (min-width: 1025px) {
+  .background-cs {
+    display: none;
+  }
+}
 @media (max-width: 600px) {
   .box-yt a {
     font-size: 1rem;
