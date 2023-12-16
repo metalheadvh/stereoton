@@ -97,18 +97,13 @@ nav .fa-solid {
   display: none;
 }
 
-@media (max-width: 700px) {
-  .nav-links ul li {
-    width: fit-content;
-  }
-}
-
 .footer {
   width: 100%;
   text-align: center;
   padding: 30px 0;
   background-color: var(--primary-color);
 }
+
 .footer p {
   margin-bottom: 10px;
   margin-top: 30px;
@@ -305,6 +300,13 @@ form button:hover {
   border: 5px solid #999;
 }
 
+.title-coming-soon-desktop {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+  background-color: var(--primary-color);
+}
+
 .expanding-cards {
   display: flex;
   width: 100vw;
@@ -338,8 +340,17 @@ form button:hover {
   transition: opacity 0.3s ease-in 0.4s;
 }
 
+@media (max-width: 700px) {
+  .nav-links ul li {
+    width: fit-content;
+  }
+}
+
 @media (max-width: 1024px) {
   .expanding-cards {
+    display: none;
+  }
+  .title-coming-soon-desktop {
     display: none;
   }
 }
