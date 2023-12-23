@@ -15,7 +15,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Rubik Burned", sans-serif;
+  font-family: "Bodoni Moda", serif;
 }
 
 .header {
@@ -58,19 +58,14 @@ nav {
   width: 100%;
 }
 .text-box {
-  width: fit-content;
   color: var(--primary-color);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   text-align: center;
 }
 .text-box h1 {
   font-size: 3.75rem;
 }
 .text-box h3 {
-  padding: 1.25rem;
+  padding: 1.5rem;
 }
 .text-box p {
   margin: 0.625rem 0 2.5rem;
@@ -87,6 +82,7 @@ nav {
   background: transparent;
   position: relative;
   cursor: pointer;
+  margin: 2rem;
 }
 .hero-btn:hover {
   border: 1px solid rgba(4, 9, 30, 0.7);
@@ -340,12 +336,6 @@ form button:hover {
 .panel.active h3 {
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
-}
-
-@media (max-width: 700px) {
-  .nav-links ul li {
-    width: fit-content;
-  }
 }
 
 @media (max-width: 1024px) {
