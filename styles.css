@@ -27,7 +27,7 @@
 }
 nav {
   display: flex;
-  padding: 50px 100px;
+  padding: 3.125rem 6.25rem;
   justify-content: center;
   align-items: center;
 }
@@ -38,7 +38,7 @@ nav {
 .nav-links ul li {
   list-style: none;
   display: inline-block;
-  padding: 50px 50px;
+  padding: 3.125rem 3.125rem;
 }
 .nav-links ul li a {
   color: var(--primary-color);
@@ -48,7 +48,7 @@ nav {
 .nav-links ul li::after {
   content: "";
   width: 0%;
-  height: 2px;
+  height: 0.125rem;
   background: var(--primary-color);
   display: block;
   margin: auto;
@@ -63,6 +63,7 @@ nav {
 }
 .text-box h1 {
   font-size: 3.75rem;
+  padding-top: 10rem;
 }
 .text-box h3 {
   padding: 1.5rem;
@@ -76,8 +77,8 @@ nav {
   display: inline-block;
   text-decoration: none;
   color: var(--primary-color);
-  border: 1px solid #fff;
-  padding: 12px 34px;
+  border: 0.0625rem solid #fff;
+  padding: 0.75rem 2.125rem;
   font-size: var(--font-size);
   background: transparent;
   position: relative;
@@ -85,7 +86,7 @@ nav {
   margin: 2rem;
 }
 .hero-btn:hover {
-  border: 1px solid rgba(4, 9, 30, 0.7);
+  border: 0.0625rem solid rgba(4, 9, 30, 0.7);
   background: rgba(4, 9, 30, 0.7);
   transition: 1s;
 }
@@ -96,20 +97,20 @@ nav .fa-solid {
 .footer {
   width: 100%;
   text-align: center;
-  padding: 30px 0;
+  padding: 1.875rem 0;
   background-color: var(--primary-color);
 }
 
 .footer p {
-  margin-bottom: 10px;
-  margin-top: 30px;
+  margin-bottom: 0.625rem;
+  margin-top: 1.875rem;
   font-weight: 500;
 }
 .icons .fa {
   color: #7a7a78;
-  margin: 0 14px;
+  margin: 0 0.875rem;
   cursor: pointer;
-  padding: 18px 0;
+  padding: 1.125rem 0;
   text-decoration: none;
 }
 
@@ -125,7 +126,7 @@ nav .fa-solid {
 .location {
   width: 80%;
   margin: auto;
-  padding: 60px 0 0px;
+  padding: 3.75rem 0 0rem;
 }
 .location iframe {
   width: 100%;
@@ -147,11 +148,11 @@ nav .fa-solid {
   display: flex;
   flex-direction: column;
   text-align: start;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 .form {
   margin: 0 auto;
-  max-width: 640px;
+  max-width: 40rem;
   width: 100%;
 }
 
@@ -172,29 +173,29 @@ form {
 form h3 {
   color: var(--primary-color);
   font-size: 3rem;
-  margin: 15px;
+  margin: 1rem;
   text-align: center;
   margin-bottom: 2rem;
 }
 form input,
 form textarea {
   border: 0;
-  margin: 10px 0;
-  padding: 20px;
+  margin: 0.625rem 0;
+  padding: 1.25rem;
   outline: none;
   background: var(--primary-color);
-  font-size: 14px;
+  font-size: 0.875rem;
   text-align: start;
   border-radius: 0.625rem;
 }
 form button {
-  padding: 15px;
+  padding: 0.9375rem;
   background: var(--primary-color);
   color: var(--secondary-color);
   border-radius: 1rem;
-  margin-top: 10px;
+  margin-top: 0.625rem;
   border: 0.125rem solid var(--primary-color);
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
   width: 100%;
   transition: 0.5s;
@@ -221,7 +222,7 @@ form button:hover {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 2.5rem;
 }
 
 .box-yt a {
@@ -235,8 +236,8 @@ form button:hover {
   background-color: #0f0f0f;
   color: #f5f5f5;
   transition: 0.5s;
-  border-radius: 5px;
-  padding: 10px;
+  border-radius: 0.3125rem;
+  padding: 0.625rem;
 }
 
 #gallery {
@@ -250,7 +251,7 @@ form button:hover {
   justify-items: center;
   padding: 1rem;
   gap: 1.875rem;
-  border-bottom: 5px solid var(--background-color);
+  border-bottom: 0.3125rem solid var(--background-color);
 }
 
 #gallery h1 {
@@ -294,13 +295,13 @@ form button:hover {
   max-width: 45rem;
   height: auto;
   margin: 2rem auto;
-  border: 5px solid #999;
+  border: 0.3125rem solid #999;
 }
 
 .title-coming-soon-desktop {
   width: 100%;
   text-align: center;
-  padding: 30px 0;
+  padding: 1.875rem 0;
   background-color: var(--primary-color);
   font-size: 2rem;
 }
@@ -316,29 +317,29 @@ form button:hover {
   background-position: center;
   background-repeat: no-repeat;
   height: 85vh;
-  border-radius: 50px;
+  border-radius: 3.125rem;
   color: #fff;
   cursor: pointer;
   flex: 0.5;
-  margin: 10px;
+  margin: 0.625rem;
   position: relative;
   transition: 0.8s;
-  border: 5px solid gray;
+  border: 0.3125rem solid gray;
 }
 
 .panel.active {
   flex: 9;
-  border-radius: 50px;
-  max-width: 600px;
+  border-radius: 3.125rem;
+  max-width: 37.5rem;
 
-  border: 5px solid gray;
+  border: 0.3125rem solid gray;
 }
 .panel.active h3 {
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 64rem) {
   .expanding-cards {
     display: none;
   }
@@ -347,12 +348,16 @@ form button:hover {
   }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 64.0625rem) {
   .background-cs {
     display: none;
   }
+  .text-box h3 {
+    font-size: 1.5rem;
+    margin: 1.5rem;
+  }
 }
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) {
   .box-yt a {
     font-size: 1rem;
   }
@@ -362,7 +367,7 @@ form button:hover {
   }
 }
 
-@media (max-width: 735px) and (min-width: 600px) {
+@media (max-width: 45.9375rem) and (min-width: 37.5rem) {
   .box-cs img {
     max-width: 35rem;
   }
