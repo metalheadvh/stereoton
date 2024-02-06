@@ -18,7 +18,12 @@ const youtubeIcon = document.querySelector(".icons .fa");
 youtubeIcon.addEventListener("mouseenter", () => {
   youtubeIcon.style.color = "#c4302b";
 })
-// const albumArt = document.getElementsByClassName("images");
-// albumArt.addEventListener("mouseenter", () => {
-//   albumArt.style.border = "3px solid black";
-// })
+
+const albumArt = document.getElementsByClassName("images");
+
+
+for (let album of albumArt) {
+  album.addEventListener("mouseenter", () => {
+    album.style.border = "2px solid black";})
+  album.addEventListener("mouseleave", () => {
+    album.style.border = "none";})}
