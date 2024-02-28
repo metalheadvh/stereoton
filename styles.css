@@ -238,6 +238,11 @@ form button:hover {
   gap: 1.875rem;
   border-bottom: 0.3125rem solid var(--background-color);
 }
+.gallery-images-active {
+  border-radius: 2rem;
+  border: 2px solid black;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 
 #gallery a {
   background-color: var(--primary-color);
