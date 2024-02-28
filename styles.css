@@ -1,14 +1,8 @@
 :root {
-  --gradient-overlay: linear-gradient(
-    rgba(4, 9, 30, 0.7),
-    rgba(30, 4, 25, 0.7)
-  );
-
+  --gradient-overlay: linear-gradient(rgba(4, 9, 30, 0.7), rgba(30, 4, 25, 0.7));
   --background-color: #a2a49f63;
   --font-size: 1rem;
-
   --primary-color: antiquewhite;
-
   --secondary-color: 555;
 }
 
@@ -90,6 +84,7 @@ nav {
   background: rgba(4, 9, 30, 0.7);
   transition: 1s;
 }
+
 nav .fa-solid {
   display: none;
 }
@@ -139,8 +134,7 @@ nav .fa-solid {
 
 .sub-header nav {
   min-height: 10vh;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(30, 4, 25, 0.7)),
-    url(assets/background.jpg);
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(30, 4, 25, 0.7)), url(assets/background.jpg);
   background-position: bottom;
 }
 
@@ -158,12 +152,7 @@ nav .fa-solid {
 }
 
 form {
-  background-image: linear-gradient(
-      180deg,
-      rgba(0, 0, 145, 0.213),
-      rgba(32, 32, 32, 0.344)
-    ),
-    url(assets/contact.png);
+  background-image: linear-gradient(180deg, rgba(0, 0, 145, 0.213), rgba(32, 32, 32, 0.344)), url(assets/contact.png);
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -208,12 +197,7 @@ form button:hover {
 }
 
 .yt-flex {
-  background-image: linear-gradient(
-      0deg,
-      rgba(206, 201, 201, 0.8),
-      rgba(206, 201, 201, 0.8)
-    ),
-    url(assets/yt-box.png);
+  background-image: linear-gradient(0deg, rgba(206, 201, 201, 0.8), rgba(206, 201, 201, 0.8)), url(assets/yt-box.png);
   background-size: auto;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -250,7 +234,7 @@ form button:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
-  padding: 1rem;
+  padding: 0 1rem;
   gap: 1.875rem;
   border-bottom: 0.3125rem solid var(--background-color);
 }
@@ -260,11 +244,14 @@ form button:hover {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-#gallery h1 {
+#gallery a {
   background-color: var(--primary-color);
   color: var(--secondary-color);
-  padding-top: 1.875rem;
+  padding-top: 2rem;
+  display: block;
   font-size: 3rem;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .images {
@@ -337,12 +324,7 @@ form button:hover {
   flex: 9;
   border-radius: 3.125rem;
   max-width: 37.5rem;
-
   border: 0.3125rem solid gray;
-}
-.panel.active h3 {
-  opacity: 1;
-  transition: opacity 0.3s ease-in 0.4s;
 }
 
 @media (max-width: 64rem) {
